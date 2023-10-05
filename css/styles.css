@@ -1,0 +1,60 @@
+/* || RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ||BODY */
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgoldenrodyellow
+}
+
+/* || GENERAL STYLES */
+.container
+{
+    margin: 50px auto;
+    padding: 1rem;
+    background-color: darkgreen;
+    background-image: url("../img/table.png");
+    max-width: 500px;
+    min-height: 350px;
+    border: 10px solid firebrick;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.container__h1
+{
+    margin: 0 0 20px 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: goldenrod;
+
+}
+
+.container p{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.btn{
+    background-color: goldenrod;
+    border: 2px solid #333;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: #016f;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.btn:active{
+    background-color: gold;
+}
+
